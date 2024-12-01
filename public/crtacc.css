@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Full body and background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010; /* Even darker background */
+    color: white;
+}
+
+/* Account Wrapper */
+.account-wrapper {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+}
+
+/* Account Box */
+.account-box {
+    background-color: #1b1b1b;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    position: relative;
+    animation: floatBox 3s infinite alternate;
+    transition: transform 0.5s ease-in-out;
+}
+
+.account-box:hover {
+    transform: translateY(-10px); /* Adds hover animation */
+}
+
+/* Progress Bar */
+.progress-bar {
+    background-color: #333;
+    border-radius: 10px;
+    height: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 50%; /* Example progress percentage */
+    background-color: #00d1b2;
+    transition: width 0.4s ease;
+}
+
+/* Heading */
+.account-box h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #00d1b2;
+}
+
+/* Input Groups */
+.input-group {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.input-group input:focus {
+    border-bottom: 2px solid #00d1b2;
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #aaa;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+    top: 0;
+   

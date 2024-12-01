@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Dark Theme</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar for chats -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <img src="icon.jpg" alt="Profile Picture" class="profile-pic">
+                <div class="icons">
+                    <span class="icon">⚙️</span>
+                    <span class="icon">🔍</span>
+                    <span class="icon">➕</span>
+                </div>
+            </div>
+            <div class="chat-search">
+                <input type="text" placeholder="Search or start new chat" id="searchInput">
+            </div>
+            <div class="chat-list" id="chatList">
+                <!-- Sample chat list items populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Chat area -->
+        <div class="chat-area">
+            <div class="chat-header">
+                <img src="profile.jpg" alt="Chat Pic" class="chat-pic-header" id="chatHeaderPhoto">
+                <div class="header-info">
+                    <h3 id="chatHeaderName">Sourav Singh</h3>
+                    <span class="status" id="chatStatus">online</span>
+                    <p id="profileAbout">B.Tech student, passionate about technology.</p>
+                </div>
+            </div>
+            <div class="messages" id="messagesContainer">
+                <!-- Messages will be populated here -->
+            </div>
+            <div class="chat-footer">
+                <input type="text" placeholder="Type a message" id="messageInput">
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>

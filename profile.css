@@ -1,0 +1,167 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container */
+.container {
+    background-color: #121212; /* Dark background */
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 20px;
+    flex-grow: 1;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* Profile Section */
+.profile-section {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-header {
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.upload-section {
+    margin-top: 20px;
+}
+
+.input-field,
+.input-area,
+.file-upload {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: white;
+}
+
+.input-area {
+    height: 100px;
+    resize: none;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Added space above button group */
+}
+
+.upload-button,
+.join-button { /* Common styles for both buttons */
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 15px; /* Changed padding for a normal button length */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1; /* Ensures equal width */
+    margin: 0 5px; /* Added margin for spacing between buttons */
+}
+
+.upload-button:hover,
+.join-button:hover {
+    background-color: #e6b800; /* Darker yellow on hover */
+}
+
+/* Project Archive */
+.project-archive {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.project-card {
+    width: 150px;
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-card img {
+    width: 100%;      /* Makes the image responsive to the card width */
+    height: 100px;   /* Fixed height for project images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 10px;
+}
+
+.project-card h4 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.project-card p {
+    font-size: 12px;
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Join Project Button */
+.join-button {
+    background-color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.join-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

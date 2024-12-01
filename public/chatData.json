@@ -1,0 +1,20 @@
+{
+    "Sourav": {
+        "photo": "profile.jpg",
+        "status": "online",
+        "about": "B.Tech student, passionate about technology.",
+        "messages": [
+            { "type": "received", "text": "Hey, how's it going?", "time": "12:45 PM" },
+            { "type": "sent", "text": "All good, how about you?", "time": "12:46 PM" }
+        ]
+    },
+    "Tushar": {
+        "photo": "profile2.jpg",
+        "status": "offline",
+        "about": "Aspiring engineer and tech enthusiast.",
+        "messages": [
+            { "type": "received", "text": "Let's catch up soon!", "time": "11:30 AM" },
+            { "type": "sent", "text": "Yes, let's plan something!", "time": "11:32 AM" }
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "title": "AI Project",
+        "description": "I’m working on a new project and it’s going great. Check out some snapshots from my coding sessions and project meetings. Innovation is key!",
+        "image": "proj.jpg"
+    },
+    {
+        "title": "Blockchain Initiative",
+        "description": "Developing a secure, decentralized system for education records. Join us to explore the future of digital credentials.",
+        "image": "proj.jpg"
+    },
+    {
+        "title": "IoT Smart Home",
+        "description": "Building a fully automated smart home solution to make life easier. Let’s create a connected world!",
+        "image": "proj.jpg"
+    }
+]

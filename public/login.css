@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Full body and background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b0b0b; /* Darker background */
+    color: white;
+    overflow: hidden; /* Prevents any overflow */
+}
+
+/* Login Wrapper */
+.login-wrapper {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Login Box */
+.login-box {
+    background-color: #1b1b1b; /* Dark background for login box */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    position: relative;
+    animation: floatBox 3s infinite alternate; /* Subtle floating animation */
+    transition: transform 0.5s ease-in-out;
+}
+
+.login-box:hover {
+    transform: translateY(-50); /* Adds hover animation */
+
+}
+
+@keyframes floatBox {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px); /* Float effect */
+    }
+}
+
+/* Login Heading */
+.login-box h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #00d1b2;
+}
+
+/* Input Groups */
+.input-group {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: left; /* Move labels above input */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.input-group input:focus {
+    border-bottom: 2px solid #00d1b2;
+}
+
+/* Submit Button */
+.submit-group {
+    margin-top: 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00d1b2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00a187;
+}
+
+/* Forgot Password and Sign Up links */
+.forgot-password,
+.signup {
+    margin-top: 20px;
+}
+
+a {
+    color: #00d1b2;
+    text-decoration: none; /* Remove underline */
+    font-size: 14px;
+}
+
+a:hover {
+    color: #00a187;
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Animation */
+@keyframes floatBox {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .login-box {
+        padding: 30px;
+    }
+
+    .input-group input {
+        padding: 10px;
+    }
+}

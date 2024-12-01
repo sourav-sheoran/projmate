@@ -1,0 +1,26 @@
+{
+    "english": {
+        "mainTitle": "ProjMate",
+        "mainDescription": "Connect B.Tech students from across India to collaborate on innovative projects.",
+        "learnMoreTitle": "What is ProjMate?",
+        "learnMoreText": "ProjMate is a platform for B.Tech students to connect and collaborate on exciting  allowing them to collaborate on exciting project ideas. The goal is to create a space where students can discover new concepts, connect with like-minded peers, and work together to turn ideas into reality. With a simple swipe feature, users can easily find projects that interest them and form teams to collaborate. It fosters creativity, innovation, and networking among students, enhancing their practical skills. Ultimately, ProjMate empowers students to build meaningful projects while expanding their professional networks.."
+    },
+    "hindi": {
+        "mainTitle": "प्रोजमेट",
+        "mainDescription": "भारत के बी.टेक छात्रों को एक मंच पर जोड़ें और परियोजनाओं पर सहयोग करें।",
+        "learnMoreTitle": "प्रोजमेट क्या है?",
+        "learnMoreText": "प्रोजमेट एक ऐसा प्लेटफ़ॉर्म है जहाँ बी.टेक छात्र रोमांचक परियोजनाओं पर सहयोग कर सकते हैं।"
+    },
+    "telugu": {
+        "mainTitle": "ప్రోజ్‌మేట్",
+        "mainDescription": "భారతదేశం అంతటా బి.టెక్ విద్యార్థులను కలిపి ప్రాజెక్టులపై సహకరించండి.",
+        "learnMoreTitle": "ప్రోజ్‌మేట్ అంటే ఏమిటి?",
+        "learnMoreText": "ప్రోజ్‌మేట్ అనేది బి.టెక్ విద్యార్థులకు ప్రాజెక్టులపై సహకరించడానికి ఒక వేదిక."
+    },
+    "tamil": {
+        "mainTitle": "ப்ரோஜ்மேட்",
+        "mainDescription": "இந்தியாவின் பி.டெக் மாணவர்களை ஒரே இடத்தில் இணைத்து புதிய திட்டங்களில் வேலை செய்யுங்கள்.",
+        "learnMoreTitle": "ப்ரோஜ்மேட் என்ன?",
+        "learnMoreText": "ப்ரோஜ்மேட் என்பது பி.டெக் மாணவர்கள் பரந்த வட்டாரத்தில் ஒருங்கிணைந்து பணிபுரிய ஒரு தளமாகும்."
+    }
+}

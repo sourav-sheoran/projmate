@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - Dark Theme</title>
+    <link rel="stylesheet" href="crtacc.css">
+</head>
+<body>
+    <div class="account-wrapper">
+        <div class="account-box">
+            <h2>Create Account</h2>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <form id="signup-form">
+                <div class="input-group">
+                    <input type="text" id="username" placeholder=" " required>
+                    <label for="username">Username</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder=" " required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" placeholder=" " required>
+                    <label for="password">Password</label>
+                </div>
+               
+                <div class="submit-group">
+                    <button type="submit" class="btn">Sign Up</button>
+                </div>
+                <p class="login-redirect">
+                    Already have an account? <a href="/login">Login here</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <script src="crtacc.js"></script>
+</body>
+</html>

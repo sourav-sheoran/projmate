@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjMate - Connect & Innovate</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- FontAwesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="left">
+            <a href="/crtacc"><i class="fas fa-user-plus"></i> Create Account</a>
+            <a href="/login"><i class="fas fa-sign-in-alt"></i> Login</a>
+        </div>
+        <div class="right">
+            <label for="language"><i class="fas fa-globe"></i></label>
+            <select id="language" name="language" aria-label="Select Language">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+                <option value="telugu">Telugu</option>
+                <option value="tamil">Tamil</option>
+            </select>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main class="container">
+        <h1 id="main-title">ProjMate</h1>
+        <p id="main-description">Connect B.Tech students from across India to collaborate on innovative projects.</p>
+        <button id="learn-more-btn" class="btn">Learn More</button>
+        
+        <!-- Hidden "Learn More" Content -->
+        <div id="learn-more-content" class="hidden">
+            <h2 id="learn-more-title"></h2>
+            <p id="learn-more-text"></p>
+        </div>
+    </main>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <i class="fas fa-lightbulb"></i>
+                <h3 id="step1-title">Step 1: Discover Ideas</h3>
+                <p id="step1-description">Browse through project ideas shared by students nationwide.</p>
+            </div>
+            <div class="step">
+                <i class="fas fa-hand-point-right"></i>
+                <h3 id="step2-title">Step 2: Swipe Right</h3>
+                <p id="step2-description">Swipe right on projects that excite you to collaborate.</p>
+            </div>
+            <div class="step">
+                <i class="fas fa-users"></i>
+                <h3 id="step3-title">Step 3: Collaborate</h3>
+                <p id="step3-description">Join like-minded peers to innovate and grow.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Links -->
+    <div class="social-icons">
+        <a href="https://www.youtube.com" target="_blank" class="fab fa-youtube"></a>
+        <a href="https://www.google.com" target="_blank" class="fab fa-google"></a>
+        <a href="https://www.instagram.com" target="_blank" class="fab fa-instagram"></a>
+    </div>
+
+    <!-- Footer Section -->
+    <%- include('footer.ejs') %>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
